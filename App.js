@@ -12,7 +12,7 @@ class App extends Component{
   constructor(props){
     super(props);
     this.state ={
-      textoFrase: 'Isso é um teste',
+      textoFrase: '',
       img: require('./src/biscoito.png')
     };
     this.quebraBiscoito = this.quebraBiscoito.bind(this);
